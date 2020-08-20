@@ -1,0 +1,51 @@
+$colors: (
+  primary: #005dff,
+  accent: #fff6bb,
+);
+
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+
+  #bd {
+    background-color: #201728;
+  }
+
+  .home {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    background-image: url(kjd-assets/hearo-top-1.jpg);
+    width: 100%;
+    height: 115vh;
+  }
+
+  .heading {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .about-us {
+    background-color: #6f249b;
+    clip-path: polygon(0 0, 100% 0, 99% 78%, 0 94%);
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+  }
+
+  .box-1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+  }
+}
