@@ -67,7 +67,7 @@ body {
     font-size: 320%;
     font-weight: lighter;
     text-align: center;
-    color: #fff;
+    color: #f5f5f5;
   }
 
   .about-box {
@@ -78,11 +78,11 @@ body {
     border: 2px #b91e70 solid;
     width: 17%;
     padding: 0.6rem;
-    font-family: "Montserrat-R";
+    font-family: "Work Sans", sans-serif;
     font-weight: normal;
     font-size: 90%;
     text-align: center;
-    color: #fff;
+    color: #f5f5f5;
   }
 
   .arrow-right {
@@ -92,15 +92,20 @@ body {
     transform: translateX(540px) translateY(-40px);
   }
 
-  .s-shape {
+  .second-section {
     margin: auto;
     height: 1000px;
+  }
+
+  .s-shape {
+    margin: auto;
+    height: 2000px;
   }
 
   .sec-shape {
     margin: auto;
     height: 500px;
-    transform: translate(400px, 20px);
+    transform: translate(350px, 160px);
   }
 
   .second-arrow {
@@ -111,24 +116,71 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  .advertising-sec {
+  .advertising-header {
     margin: auto;
     justify-content: left;
-    color: #fff;
+    color: #f5f5f5;
     width: 300%;
-    transform: translate(300px, 200px);
+    transform: translate(148px, -1755px);
 
     .sec-heading {
       display: flex;
-      font-family: "Montserrat";
+      font-family: "Playfair";
       font-size: 65px;
-      transform: translate(-81px, 62px);
     }
+  }
+
+  .sec-lorem {
+    padding: 2rem 0;
+    width: 320px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+  }
+
+  .lorem-box {
+    margin: auto;
+    border: 2px #b91e70 solid;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 10%;
+    color: #f5f5f5;
+    padding: 0.7rem;
+    text-align: center;
+    transform: translate(-535px, -1740px);
+  }
+
+  .lorem-arrow {
+    margin: auto;
+    width: 46px;
+    height: 18px;
+    transform: translateX(280px) translateY(-1875px);
+  }
+
+  .glyph {
+    margin: auto;
+    transform: translateX(1060px) translateY(-2105px);
+  }
+
+  .arrow-glyph {
+    margin: auto;
+    transform: translateX(300px) translateY(-1620px);
   }
 
   .image-s1 {
     margin: auto;
-    transform: translate(180px, 170px);
+    transform: translate(110px, 310px);
+  }
+
+  .data-analytics {
+    background-color: #6f249b;
+    height: 1000px;
+    clip-path: polygon(0 7.5%, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .circle {
+    margin: auto;
+    transform: translate(700px, 200px);
   }
 }
 
@@ -180,6 +232,22 @@ body {
       transform: translateX(418px) translateY(-45px);
     }
 
+    .second-section {
+      margin: auto;
+      height: 1050px;
+    }
+
+    .s-shape {
+      margin: auto;
+      height: 2000px;
+    }
+
+    .sec-shape {
+      margin: auto;
+      height: 500px;
+      transform: translate(180px, 145px);
+    }
+
     .second-arrow {
       text-align: center;
       position: absolute;
@@ -188,16 +256,60 @@ body {
       transform: translate(-50%, -50%);
     }
 
-    .s-shape {
+    .advertising-header {
       margin: auto;
       justify-content: left;
-      height: 700px;
+      color: #f5f5f5;
+      width: 300%;
+      transform: translate(60px, -1750px);
+
+      .sec-heading {
+        display: flex;
+        font-family: "Playfair";
+        font-size: 40px;
+      }
     }
 
-    .sec-shape {
+    .sec-lorem {
+      padding: 2rem 0;
+      width: 320px;
+      font-family: "Work Sans", sans-serif;
+      font-size: 16px;
+    }
+
+    .lorem-box {
       margin: auto;
-      height: 500px;
-      transform: translate(200px, 100px);
+      border: 2px #b91e70 solid;
+      font-family: "Work Sans", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      width: 10%;
+      color: #f5f5f5;
+      padding: 0.7rem;
+      text-align: center;
+      transform: translate(-430px, -1740px);
+    }
+
+    .lorem-arrow {
+      margin: auto;
+      width: 46px;
+      height: 18px;
+      transform: translateX(155px) translateY(-1879px);
+    }
+
+    .glyph {
+      margin: auto;
+      transform: translateX(900px) translateY(-2080px);
+    }
+
+    .arrow-glyph {
+      margin: auto;
+      transform: translateX(180px) translateY(-1550px);
+    }
+
+    .image-s1 {
+      margin: auto;
+      transform: translate(392px, -200px);
     }
   }
 }
