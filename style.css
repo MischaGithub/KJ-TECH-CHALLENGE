@@ -104,14 +104,14 @@ body .arrow-right {
 
 body .s-shape {
   margin: auto;
-  height: 700px;
+  height: 1000px;
 }
 
 body .sec-shape {
   margin: auto;
   height: 500px;
-  -webkit-transform: translate(400px, 100px);
-          transform: translate(400px, 100px);
+  -webkit-transform: translate(400px, 20px);
+          transform: translate(400px, 20px);
 }
 
 body .second-arrow {
@@ -139,7 +139,15 @@ body .advertising-sec .sec-heading {
   display: -ms-flexbox;
   display: flex;
   font-family: "Montserrat";
-  font-size: 50px;
+  font-size: 65px;
+  -webkit-transform: translate(-81px, 62px);
+          transform: translate(-81px, 62px);
+}
+
+body .image-s1 {
+  margin: auto;
+  -webkit-transform: translate(180px, 170px);
+          transform: translate(180px, 170px);
 }
 
 @media (max-width: 1080px) {

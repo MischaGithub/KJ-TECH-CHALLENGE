@@ -94,13 +94,13 @@ body {
 
   .s-shape {
     margin: auto;
-    height: 700px;
+    height: 1000px;
   }
 
   .sec-shape {
     margin: auto;
     height: 500px;
-    transform: translate(400px, 100px);
+    transform: translate(400px, 20px);
   }
 
   .second-arrow {
@@ -121,8 +121,14 @@ body {
     .sec-heading {
       display: flex;
       font-family: "Montserrat";
-      font-size: 50px;
+      font-size: 65px;
+      transform: translate(-81px, 62px);
     }
+  }
+
+  .image-s1 {
+    margin: auto;
+    transform: translate(180px, 170px);
   }
 }
 
