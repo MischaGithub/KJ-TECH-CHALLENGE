@@ -268,6 +268,7 @@ body .da-arrow-glyph {
 
 body .work-cards {
   margin: auto;
+  height: 600px;
   background-color: #fff;
 }
 
@@ -370,6 +371,109 @@ body .work-cards .card-3 .card-3-arrow {
   margin: auto;
   -webkit-transform: translate(348px, -143px);
           transform: translate(348px, -143px);
+}
+
+body .footer {
+  margin: auto;
+  height: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .footer .cpt-info {
+  margin: auto;
+  text-align: left;
+  color: #fff;
+  -webkit-transform: translate(-30px);
+          transform: translate(-30px);
+}
+
+body .footer .cpt-info .cpt-heading {
+  color: #b91e70;
+  font-family: "Playfair";
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+body .footer .cpt-info .cpt-p {
+  font-family: system-ui, system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
+body .footer .joburg-info {
+  margin: auto;
+  text-align: left;
+  color: #fff;
+  -webkit-transform: translate(-100px);
+          transform: translate(-100px);
+}
+
+body .footer .joburg-info .joburg-heading {
+  color: #b91e70;
+  font-family: "Playfair";
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+body .footer .joburg-info .joburg-p {
+  font-family: system-ui, system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
+body .footer .media-info {
+  margin: auto;
+  text-align: left;
+  color: #fff;
+  -webkit-transform: translate(-170px);
+          transform: translate(-170px);
+}
+
+body .footer .media-info .media-heading {
+  color: #b91e70;
+  font-family: "Playfair";
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+body .footer .media-info .media-p {
+  font-family: system-ui, system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
+body .footer .connect-info {
+  margin: auto;
+  text-align: left;
+  color: #fff;
+  -webkit-transform: translate(-250px);
+          transform: translate(-250px);
+}
+
+body .footer .connect-info .connect-heading {
+  color: #b91e70;
+  font-family: "Playfair";
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+body .footer .connect-info .connect-p {
+  font-family: system-ui, system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
 }
 
 @media (max-width: 1080px) {

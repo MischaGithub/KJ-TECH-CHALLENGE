@@ -238,6 +238,7 @@ body {
 
   .work-cards {
     margin: auto;
+    height: 600px;
     background-color: #fff;
 
     .cards-body {
@@ -322,6 +323,100 @@ body {
       .card-3-arrow {
         margin: auto;
         transform: translate(348px, -143px);
+      }
+    }
+  }
+
+  .footer {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    .cpt-info {
+      margin: auto;
+      text-align: left;
+      color: #fff;
+      transform: translate(-30px);
+
+      .cpt-heading {
+        color: #b91e70;
+        font-family: "Playfair";
+        font-size: 22px;
+        font-weight: lighter;
+      }
+
+      .cpt-p {
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
+      }
+    }
+
+    .joburg-info {
+      margin: auto;
+      text-align: left;
+      color: #fff;
+      transform: translate(-100px);
+
+      .joburg-heading {
+        color: #b91e70;
+        font-family: "Playfair";
+        font-size: 22px;
+        font-weight: lighter;
+      }
+
+      .joburg-p {
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
+      }
+    }
+
+    .media-info {
+      margin: auto;
+      text-align: left;
+      color: #fff;
+      transform: translate(-170px);
+
+      .media-heading {
+        color: #b91e70;
+        font-family: "Playfair";
+        font-size: 22px;
+        font-weight: lighter;
+      }
+
+      .media-p {
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
+      }
+    }
+
+    .connect-info {
+      margin: auto;
+      text-align: left;
+      color: #fff;
+      transform: translate(-250px);
+
+      .connect-heading {
+        color: #b91e70;
+        font-family: "Playfair";
+        font-size: 22px;
+        font-weight: lighter;
+      }
+
+      .connect-p {
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
       }
     }
   }
