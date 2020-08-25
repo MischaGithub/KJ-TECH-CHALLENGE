@@ -197,14 +197,110 @@ body .image-s1 {
 body .data-analytics {
   background-color: #6f249b;
   height: 1000px;
-  -webkit-clip-path: polygon(0 7.5%, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 7.5%, 100% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
 }
 
 body .circle {
   margin: auto;
-  -webkit-transform: translate(700px, 200px);
-          transform: translate(700px, 200px);
+  height: 520px;
+  -webkit-transform: translate(640px, 220px);
+          transform: translate(640px, 220px);
+}
+
+body .image-s2 {
+  margin: auto;
+  width: 725px;
+  -webkit-transform: translate(-385px, 315px);
+          transform: translate(-385px, 315px);
+}
+
+body .data-analytics-heading {
+  margin: auto;
+  -webkit-transform: translate(260px, -160px);
+          transform: translate(260px, -160px);
+}
+
+body .data-analytics-heading .da-heading {
+  text-align: center;
+  font-family: "Playfair";
+  font-size: 57px;
+  color: #f5f5f5;
+}
+
+body .data-analytics-heading .da-lorem {
+  padding: 1rem 0;
+  width: 330px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16.5px;
+  color: #f5f5f5;
+  -webkit-transform: translate(670px, 30px);
+          transform: translate(670px, 30px);
+}
+
+body .da-readmore {
+  margin: auto;
+  border: 2px #b91e70 solid;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 10%;
+  color: #f5f5f5;
+  padding: 0.7rem;
+  text-align: center;
+  -webkit-transform: translate(250px, -80px);
+          transform: translate(250px, -80px);
+}
+
+body .da-right-arrow {
+  margin: auto;
+  width: 46px;
+  height: 18px;
+  -webkit-transform: translate(1065px, -220px);
+          transform: translate(1065px, -220px);
+}
+
+body .da-arrow-glyph {
+  margin: auto;
+  -webkit-transform: translate(710px, 22px);
+          transform: translate(710px, 22px);
+}
+
+body .work-cards {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+body .work-cards .card-1 {
+  margin: auto;
+  margin-top: 8rem;
+  width: 420px;
+  height: 200px;
+}
+
+body .work-cards .card-1 .card-heading {
+  color: #b91e70;
+  font-weight: lighter;
+  -webkit-transform: translate(40px, 40px);
+          transform: translate(40px, 40px);
+}
+
+body .work-cards .card-1 .latest-news-p {
+  font-family: "Playfair";
+  font-size: 35px;
+  width: 320px;
+  color: #f5f5f5;
+  -webkit-transform: translate(40px, -275px);
+          transform: translate(40px, -275px);
+}
+
+body .work-cards .card-1 .card-1-arrow {
+  margin: auto;
+  -webkit-transform: translate(20px, -100px);
+          transform: translate(20px, -100px);
 }
 
 @media (max-width: 1080px) {
