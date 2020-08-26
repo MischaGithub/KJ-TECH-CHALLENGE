@@ -468,6 +468,9 @@ body .work-cards .card-1 {
   margin-top: 6.7rem;
   width: 420px;
   height: 200px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 body .work-cards .card-1 .card-heading {
@@ -492,11 +495,21 @@ body .work-cards .card-1 .card-1-arrow {
           transform: translate(348px, -190px);
 }
 
+body .work-cards .card-1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
 body .work-cards .card-2 {
   margin: auto;
   margin-top: 6.7rem;
   width: 420px;
   height: 200px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 body .work-cards .card-2 .card-heading {
@@ -521,11 +534,21 @@ body .work-cards .card-2 .card-2-arrow {
           transform: translate(348px, -143px);
 }
 
+body .work-cards .card-2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
 body .work-cards .card-3 {
   margin: auto;
   margin-top: 6.7rem;
   width: 420px;
   height: 200px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 body .work-cards .card-3 .card-heading {
@@ -548,6 +571,13 @@ body .work-cards .card-3 .card-3-arrow {
   margin: auto;
   -webkit-transform: translate(348px, -143px);
           transform: translate(348px, -143px);
+}
+
+body .work-cards .card-3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 body .footer {
@@ -873,6 +903,9 @@ body .footer .connect-info .connect-p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    cursor: pointer;
   }
   body .work-cards .card-1 {
     margin: 0.5rem auto;

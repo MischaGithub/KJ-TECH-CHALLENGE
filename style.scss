@@ -397,6 +397,8 @@ body {
       margin-top: 6.7rem;
       width: 420px;
       height: 200px;
+      transition: 0.5s ease;
+      cursor: pointer;
 
       .card-heading {
         color: #b91e70;
@@ -418,11 +420,18 @@ body {
       }
     }
 
+    .card-1:hover {
+      transform: scale(1.2);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    }
+
     .card-2 {
       margin: auto;
       margin-top: 6.7rem;
       width: 420px;
       height: 200px;
+      transition: 0.5s ease;
+      cursor: pointer;
 
       .card-heading {
         color: #b91e70;
@@ -444,11 +453,18 @@ body {
       }
     }
 
+    .card-2:hover {
+      transform: scale(1.2);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    }
+
     .card-3 {
       margin: auto;
       margin-top: 6.7rem;
       width: 420px;
       height: 200px;
+      transition: 0.5s ease;
+      cursor: pointer;
 
       .card-heading {
         color: #b91e70;
@@ -468,6 +484,11 @@ body {
         margin: auto;
         transform: translate(348px, -143px);
       }
+    }
+
+    .card-3:hover {
+      transform: scale(1.2);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
     }
   }
 
@@ -771,6 +792,8 @@ body {
         justify-content: center;
         margin: auto 40px;
         flex-direction: row;
+        transition: 0.5s ease;
+        cursor: pointer;
       }
 
       .card-1 {
