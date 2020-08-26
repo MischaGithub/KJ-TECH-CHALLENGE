@@ -375,7 +375,7 @@ body .work-cards .card-3 .card-3-arrow {
 
 body .footer {
   margin: auto;
-  height: 200px;
+  height: 220px;
   width: 100%;
   color: white;
   text-align: center;
@@ -392,18 +392,17 @@ body .footer .cpt-info {
   margin: auto;
   text-align: left;
   color: #fff;
-  -webkit-transform: translate(-30px);
-          transform: translate(-30px);
 }
 
 body .footer .cpt-info .cpt-heading {
   color: #b91e70;
   font-family: "Playfair";
-  font-size: 22px;
+  font-size: 23px;
   font-weight: lighter;
 }
 
 body .footer .cpt-info .cpt-p {
+  margin: 1rem auto;
   font-family: system-ui, system-ui, sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -414,18 +413,19 @@ body .footer .joburg-info {
   margin: auto;
   text-align: left;
   color: #fff;
-  -webkit-transform: translate(-100px);
-          transform: translate(-100px);
+  -webkit-transform: translate(-80px);
+          transform: translate(-80px);
 }
 
 body .footer .joburg-info .joburg-heading {
   color: #b91e70;
   font-family: "Playfair";
-  font-size: 22px;
+  font-size: 23px;
   font-weight: lighter;
 }
 
 body .footer .joburg-info .joburg-p {
+  margin: 1rem auto;
   font-family: system-ui, system-ui, sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -436,18 +436,19 @@ body .footer .media-info {
   margin: auto;
   text-align: left;
   color: #fff;
-  -webkit-transform: translate(-170px);
-          transform: translate(-170px);
+  -webkit-transform: translate(-150px);
+          transform: translate(-150px);
 }
 
 body .footer .media-info .media-heading {
   color: #b91e70;
   font-family: "Playfair";
-  font-size: 22px;
+  font-size: 23px;
   font-weight: lighter;
 }
 
 body .footer .media-info .media-p {
+  margin: 1rem auto;
   font-family: system-ui, system-ui, sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -458,18 +459,19 @@ body .footer .connect-info {
   margin: auto;
   text-align: left;
   color: #fff;
-  -webkit-transform: translate(-250px);
-          transform: translate(-250px);
+  -webkit-transform: translate(-230px);
+          transform: translate(-230px);
 }
 
 body .footer .connect-info .connect-heading {
   color: #b91e70;
   font-family: "Playfair";
-  font-size: 22px;
+  font-size: 23px;
   font-weight: lighter;
 }
 
 body .footer .connect-info .connect-p {
+  margin: 1rem auto;
   font-family: system-ui, system-ui, sans-serif;
   font-size: 16px;
   font-weight: normal;
