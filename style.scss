@@ -706,6 +706,103 @@ body {
         }
       }
     }
+
+    .footer {
+      margin: auto;
+      height: 220px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+
+      .cpt-info {
+        margin: auto;
+        text-align: left;
+        color: #fff;
+
+        .cpt-heading {
+          color: #b91e70;
+          font-family: "Playfair";
+          font-size: 23px;
+          font-weight: lighter;
+        }
+
+        .cpt-p {
+          margin: 1rem auto;
+          font-family: system-ui, system-ui, sans-serif;
+          font-size: 16px;
+          font-weight: normal;
+          color: #fff;
+        }
+      }
+
+      .joburg-info {
+        margin: auto;
+        text-align: left;
+        color: #fff;
+        transform: translate(-30px);
+
+        .joburg-heading {
+          color: #b91e70;
+          font-family: "Playfair";
+          font-size: 23px;
+          font-weight: lighter;
+        }
+
+        .joburg-p {
+          margin: 1rem auto;
+          font-family: system-ui, system-ui, sans-serif;
+          font-size: 16px;
+          font-weight: normal;
+          color: #fff;
+        }
+      }
+
+      .media-info {
+        margin: auto;
+        text-align: left;
+        color: #fff;
+        transform: translate(-50px);
+
+        .media-heading {
+          color: #b91e70;
+          font-family: "Playfair";
+          font-size: 23px;
+          font-weight: lighter;
+        }
+
+        .media-p {
+          margin: 1rem auto;
+          font-family: system-ui, system-ui, sans-serif;
+          font-size: 16px;
+          font-weight: normal;
+          color: #fff;
+        }
+      }
+
+      .connect-info {
+        margin: auto;
+        text-align: left;
+        color: #fff;
+        transform: translate(-80px);
+
+        .connect-heading {
+          color: #b91e70;
+          font-family: "Playfair";
+          font-size: 23px;
+          font-weight: lighter;
+        }
+
+        .connect-p {
+          margin: 1rem auto;
+          font-family: system-ui, system-ui, sans-serif;
+          font-size: 16px;
+          font-weight: normal;
+          color: #fff;
+        }
+      }
+    }
   }
 }
 
