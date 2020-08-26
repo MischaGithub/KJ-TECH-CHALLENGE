@@ -354,14 +354,14 @@ body .lorem-arrow {
 
 body .glyph {
   margin: auto;
-  -webkit-transform: translateX(1060px) translateY(-2105px);
-          transform: translateX(1060px) translateY(-2105px);
+  -webkit-transform: translateX(918px) translateY(-2065px);
+          transform: translateX(918px) translateY(-2065px);
 }
 
 body .arrow-glyph {
   margin: auto;
-  -webkit-transform: translateX(300px) translateY(-1620px);
-          transform: translateX(300px) translateY(-1620px);
+  -webkit-transform: translateX(180px) translateY(-1565px);
+          transform: translateX(180px) translateY(-1565px);
 }
 
 body .image-s1 {
