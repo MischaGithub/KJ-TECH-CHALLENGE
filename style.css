@@ -372,7 +372,7 @@ body .image-s1 {
 
 body .data-analytics {
   background-color: #6f249b;
-  height: 1000px;
+  height: 1150px;
   -webkit-clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
           clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
 }
@@ -424,22 +424,23 @@ body .da-readmore {
   color: #f5f5f5;
   padding: 0.7rem;
   text-align: center;
-  -webkit-transform: translate(250px, -80px);
-          transform: translate(250px, -80px);
+  background: transparent;
+  -webkit-transform: translate(925px, -200px);
+          transform: translate(925px, -200px);
 }
 
 body .da-right-arrow {
   margin: auto;
   width: 46px;
   height: 18px;
-  -webkit-transform: translate(1065px, -220px);
-          transform: translate(1065px, -220px);
+  -webkit-transform: translate(900px, -197px);
+          transform: translate(900px, -197px);
 }
 
 body .da-arrow-glyph {
   margin: auto;
-  -webkit-transform: translate(710px, 22px);
-          transform: translate(710px, 22px);
+  -webkit-transform: translate(550px, 70px);
+          transform: translate(550px, 70px);
 }
 
 body .work-cards {

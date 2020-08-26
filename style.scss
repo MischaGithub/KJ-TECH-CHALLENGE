@@ -317,7 +317,7 @@ body {
 
   .data-analytics {
     background-color: #6f249b;
-    height: 1000px;
+    height: 1150px;
     clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
   }
 
@@ -364,19 +364,20 @@ body {
     color: #f5f5f5;
     padding: 0.7rem;
     text-align: center;
-    transform: translate(250px, -80px);
+    background: transparent;
+    transform: translate(925px, -200px);
   }
 
   .da-right-arrow {
     margin: auto;
     width: 46px;
     height: 18px;
-    transform: translate(1065px, -220px);
+    transform: translate(900px, -197px);
   }
 
   .da-arrow-glyph {
     margin: auto;
-    transform: translate(710px, 22px);
+    transform: translate(550px, 70px);
   }
 
   .work-cards {
