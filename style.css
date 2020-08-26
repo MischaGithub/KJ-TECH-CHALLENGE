@@ -685,12 +685,169 @@ body .footer .connect-info .connect-p {
   color: #fff;
 }
 
-@media (max-width: 1080px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
   body {
     margin: 0;
   }
   body #bd {
     background-color: #201728;
+  }
+  body .menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 95%;
+    z-index: 1;
+    /* Hamburger line*/
+    /* Top and Bottom Line*/
+    /* Moves bottom line down*/
+    /* Toggler animate*/
+    /* Turn line into X */
+    /* Rotate on hover when checked */
+    /* Show Menu*/
+  }
+  body .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  body .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: transparent;
+  }
+  body .menu-wrap .hamburger > div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #f5f5f5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  body .menu-wrap .hamburger > div:before,
+  body .menu-wrap .hamburger > div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -8px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+  }
+  body .menu-wrap .hamburger > div::after {
+    top: 8px;
+  }
+  body .menu-wrap .toggler:checked + .hamburger > div {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  body .menu-wrap .toggler:checked + .hamburger > div::before,
+  body .menu-wrap .toggler:checked + .hamburger > div::after {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  body .menu-wrap .toggler:checked:hover + .hamburger > div {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  body .menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+  }
+  body .menu-wrap .toggler:checked ~ .menu > div {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  body .menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+  }
+  body .menu-wrap .menu {
+    position: fixed;
+    top: -20%;
+    left: 35%;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .menu-wrap .menu > div {
+    background: #6f249b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  body .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 90vw;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+  }
+  body .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  body .menu-wrap .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: color 0.4s ease;
+    transition: color 0.4s ease;
   }
   body .about-us {
     background-color: #6f249b;
@@ -903,9 +1060,6 @@ body .footer .connect-info .connect-p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    cursor: pointer;
   }
   body .work-cards .card-1 {
     margin: 0.5rem auto;
