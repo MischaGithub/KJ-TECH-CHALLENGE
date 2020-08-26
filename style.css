@@ -21,7 +21,7 @@ body #bd {
 body .menu-wrap {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 95%;
   z-index: 1;
   /* Hamburger line*/
   /* Top and Bottom Line*/
@@ -29,6 +29,7 @@ body .menu-wrap {
   /* Toggler animate*/
   /* Turn line into X */
   /* Rotate on hover when checked */
+  /* Show Menu*/
 }
 
 body .menu-wrap .toggler {
@@ -59,7 +60,7 @@ body .menu-wrap .hamburger {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: grey;
+  background: transparent;
 }
 
 body .menu-wrap .hamburger > div {
@@ -112,13 +113,28 @@ body .menu-wrap .toggler:checked:hover + .hamburger > div {
           transform: rotate(225deg);
 }
 
+body .menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+body .menu-wrap .toggler:checked ~ .menu > div {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body .menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+
 body .menu-wrap .menu {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: -20%;
+  left: 35%;
   width: 100%;
   height: 100%;
-  /*visibility: hidden;*/
+  visibility: hidden;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,11 +148,11 @@ body .menu-wrap .menu {
 }
 
 body .menu-wrap .menu > div {
-  background: #f5f5f5;
+  background: #6f249b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px;
+  width: 400px;
   height: 300px;
   -webkit-box-flex: 0;
       -ms-flex: none;
@@ -147,7 +163,8 @@ body .menu-wrap .menu > div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /*transform: scale(0);*/
+  -webkit-transform: scale(0);
+          transform: scale(0);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -156,16 +173,23 @@ body .menu-wrap .menu > div > div {
   text-align: center;
   max-width: 90vw;
   max-height: 90vw;
-  /*opacity: 0;*/
+  opacity: 0;
   -webkit-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
 }
 
 body .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: #201728;
+  color: #f5f5f5;
   font-size: 1.5rem;
   padding: 1rem;
+}
+
+body .menu-wrap .menu > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
 }
 
 body .home {
