@@ -246,7 +246,7 @@ body .box-1 {
   color: #f5f5f5;
 }
 
-body .about-box {
+body .btn-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,26 +329,27 @@ body .sec-lorem {
   font-size: 16px;
 }
 
-body .lorem-box {
+body .btn-readmore {
   margin: auto;
   border: 2px #b91e70 solid;
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  width: 10%;
+  width: 9%;
   color: #f5f5f5;
-  padding: 0.7rem;
+  padding: 0.6rem;
   text-align: center;
-  -webkit-transform: translate(-535px, -1740px);
-          transform: translate(-535px, -1740px);
+  background: transparent;
+  -webkit-transform: translate(150px, -1840px);
+          transform: translate(150px, -1840px);
 }
 
 body .lorem-arrow {
   margin: auto;
   width: 46px;
   height: 18px;
-  -webkit-transform: translateX(280px) translateY(-1875px);
-          transform: translateX(280px) translateY(-1875px);
+  -webkit-transform: translateX(130px) translateY(-1835px);
+          transform: translateX(130px) translateY(-1835px);
 }
 
 body .glyph {
@@ -685,7 +686,7 @@ body .footer .connect-info .connect-p {
     text-align: center;
     color: #fff;
   }
-  body .about-box {
+  body .btn-about {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -756,25 +757,25 @@ body .footer .connect-info .connect-p {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
   }
-  body .lorem-box {
+  body .btn-readmore {
     margin: auto;
     border: 2px #b91e70 solid;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     font-weight: normal;
-    width: 10%;
+    width: 12%;
     color: #f5f5f5;
     padding: 0.7rem;
     text-align: center;
-    -webkit-transform: translate(-430px, -1740px);
-            transform: translate(-430px, -1740px);
+    -webkit-transform: translate(60px, -1850px);
+            transform: translate(60px, -1850px);
   }
   body .lorem-arrow {
     margin: auto;
     width: 46px;
     height: 18px;
-    -webkit-transform: translateX(155px) translateY(-1879px);
-            transform: translateX(155px) translateY(-1879px);
+    -webkit-transform: translateX(40px) translateY(-1845px);
+            transform: translateX(40px) translateY(-1845px);
   }
   body .glyph {
     margin: auto;

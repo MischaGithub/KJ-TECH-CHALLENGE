@@ -211,7 +211,7 @@ body {
     color: #f5f5f5;
   }
 
-  .about-box {
+  .btn-about {
     display: flex;
     justify-content: center;
     flex-direction: wrap;
@@ -279,24 +279,25 @@ body {
     font-size: 16px;
   }
 
-  .lorem-box {
+  .btn-readmore {
     margin: auto;
     border: 2px #b91e70 solid;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     font-weight: normal;
-    width: 10%;
+    width: 9%;
     color: #f5f5f5;
-    padding: 0.7rem;
+    padding: 0.6rem;
     text-align: center;
-    transform: translate(-535px, -1740px);
+    background: transparent;
+    transform: translate(150px, -1840px);
   }
 
   .lorem-arrow {
     margin: auto;
     width: 46px;
     height: 18px;
-    transform: translateX(280px) translateY(-1875px);
+    transform: translateX(130px) translateY(-1835px);
   }
 
   .glyph {
@@ -595,7 +596,7 @@ body {
       color: #fff;
     }
 
-    .about-box {
+    .btn-about {
       display: flex;
       justify-content: center;
       flex-direction: row;
@@ -660,24 +661,24 @@ body {
       font-size: 16px;
     }
 
-    .lorem-box {
+    .btn-readmore {
       margin: auto;
       border: 2px #b91e70 solid;
       font-family: "Work Sans", sans-serif;
       font-size: 14px;
       font-weight: normal;
-      width: 10%;
+      width: 12%;
       color: #f5f5f5;
       padding: 0.7rem;
       text-align: center;
-      transform: translate(-430px, -1740px);
+      transform: translate(60px, -1850px);
     }
 
     .lorem-arrow {
       margin: auto;
       width: 46px;
       height: 18px;
-      transform: translateX(155px) translateY(-1879px);
+      transform: translateX(40px) translateY(-1845px);
     }
 
     .glyph {
