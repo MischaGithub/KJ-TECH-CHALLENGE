@@ -445,7 +445,7 @@ body .da-arrow-glyph {
 
 body .work-cards {
   margin: auto;
-  height: 600px;
+  height: 580px;
   background-color: #fff;
 }
 
@@ -841,23 +841,24 @@ body .footer .connect-info .connect-p {
     color: #f5f5f5;
     padding: 0.7rem;
     text-align: center;
-    -webkit-transform: translate(212px, -80px);
-            transform: translate(212px, -80px);
+    -webkit-transform: translate(700px, -160px);
+            transform: translate(700px, -160px);
   }
   body .da-right-arrow {
     margin: auto;
     width: 35px;
     height: 18px;
-    -webkit-transform: translate(795px, -235px);
-            transform: translate(795px, -235px);
+    -webkit-transform: translate(688px, -155px);
+            transform: translate(688px, -155px);
   }
   body .da-arrow-glyph {
     margin: auto;
-    -webkit-transform: translate(520px, -30px);
-            transform: translate(520px, -30px);
+    -webkit-transform: translate(410px, 40px);
+            transform: translate(410px, 40px);
   }
   body .work-cards {
     margin: auto;
+    height: 440px;
     background-color: #fff;
   }
   body .work-cards .cards-body {
@@ -867,7 +868,7 @@ body .footer .connect-info .connect-p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: auto 20px;
+    margin: auto 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
