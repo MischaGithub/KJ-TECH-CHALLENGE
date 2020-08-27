@@ -1071,7 +1071,7 @@ body .footer .connect-info .connect-p {
   }
   body .work-cards {
     margin: auto;
-    height: 580px;
+    height: 1100px;
     background-color: #fff;
   }
   body .work-cards .cards-body {
@@ -1081,17 +1081,18 @@ body .footer .connect-info .connect-p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: auto 80px;
-    -webkit-box-orient: horizontal;
+    margin: auto;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   body .work-cards .card-1 {
     margin: auto;
-    margin-top: 6.7rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
     width: 420px;
-    height: 200px;
+    height: 180px;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     cursor: pointer;
@@ -1123,9 +1124,10 @@ body .footer .connect-info .connect-p {
   }
   body .work-cards .card-2 {
     margin: auto;
-    margin-top: 6.7rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 420px;
-    height: 200px;
+    height: 180px;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     cursor: pointer;
@@ -1157,9 +1159,10 @@ body .footer .connect-info .connect-p {
   }
   body .work-cards .card-3 {
     margin: auto;
-    margin-top: 6.7rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 420px;
-    height: 200px;
+    height: 180px;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     cursor: pointer;

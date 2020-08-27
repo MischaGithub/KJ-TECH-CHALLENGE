@@ -954,21 +954,22 @@ body {
 
     .work-cards {
       margin: auto;
-      height: 580px;
+      height: 1100px;
       background-color: #fff;
 
       .cards-body {
         display: flex;
         justify-content: center;
-        margin: auto 80px;
-        flex-direction: row;
+        margin: auto;
+        flex-direction: column;
       }
 
       .card-1 {
         margin: auto;
-        margin-top: 6.7rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
         width: 420px;
-        height: 200px;
+        height: 180px;
         transition: 0.5s ease;
         cursor: pointer;
 
@@ -999,9 +1000,10 @@ body {
 
       .card-2 {
         margin: auto;
-        margin-top: 6.7rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         width: 420px;
-        height: 200px;
+        height: 180px;
         transition: 0.5s ease;
         cursor: pointer;
 
@@ -1032,9 +1034,10 @@ body {
 
       .card-3 {
         margin: auto;
-        margin-top: 6.7rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         width: 420px;
-        height: 200px;
+        height: 180px;
         transition: 0.5s ease;
         cursor: pointer;
 
