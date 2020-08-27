@@ -993,11 +993,6 @@ body {
         }
       }
 
-      .card-1:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-      }
-
       .card-2 {
         margin: auto;
         margin-top: 5rem;
@@ -1025,11 +1020,6 @@ body {
           margin: auto;
           transform: translate(348px, -143px);
         }
-      }
-
-      .card-2:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
       }
 
       .card-3 {
@@ -1060,26 +1050,22 @@ body {
           transform: translate(348px, -143px);
         }
       }
-
-      .card-3:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-      }
     }
 
     .footer {
       margin: auto;
-      height: 220px;
+      height: 400px;
       width: 100%;
       color: white;
       text-align: center;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
 
       .cpt-info {
         margin: auto;
         text-align: left;
         color: #fff;
+        transform: translate(-190px, 25px);
 
         .cpt-heading {
           color: #b91e70;
@@ -1101,7 +1087,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-80px);
+        transform: translate(150px, -103px);
 
         .joburg-heading {
           color: #b91e70;
@@ -1123,7 +1109,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-150px);
+        transform: translate(-175px);
 
         .media-heading {
           color: #b91e70;
@@ -1145,7 +1131,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-230px);
+        transform: translate(117px, -127px);
 
         .connect-heading {
           color: #b91e70;

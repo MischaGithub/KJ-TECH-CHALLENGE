@@ -1116,12 +1116,6 @@ body .footer .connect-info .connect-p {
     -webkit-transform: translate(348px, -190px);
             transform: translate(348px, -190px);
   }
-  body .work-cards .card-1:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-  }
   body .work-cards .card-2 {
     margin: auto;
     margin-top: 5rem;
@@ -1150,12 +1144,6 @@ body .footer .connect-info .connect-p {
     margin: auto;
     -webkit-transform: translate(348px, -143px);
             transform: translate(348px, -143px);
-  }
-  body .work-cards .card-2:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
   }
   body .work-cards .card-3 {
     margin: auto;
@@ -1186,30 +1174,26 @@ body .footer .connect-info .connect-p {
     -webkit-transform: translate(348px, -143px);
             transform: translate(348px, -143px);
   }
-  body .work-cards .card-3:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-  }
   body .footer {
     margin: auto;
-    height: 220px;
+    height: 400px;
     width: 100%;
     color: white;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   body .footer .cpt-info {
     margin: auto;
     text-align: left;
     color: #fff;
+    -webkit-transform: translate(-190px, 25px);
+            transform: translate(-190px, 25px);
   }
   body .footer .cpt-info .cpt-heading {
     color: #b91e70;
@@ -1228,8 +1212,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-80px);
-            transform: translate(-80px);
+    -webkit-transform: translate(150px, -103px);
+            transform: translate(150px, -103px);
   }
   body .footer .joburg-info .joburg-heading {
     color: #b91e70;
@@ -1248,8 +1232,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-150px);
-            transform: translate(-150px);
+    -webkit-transform: translate(-175px);
+            transform: translate(-175px);
   }
   body .footer .media-info .media-heading {
     color: #b91e70;
@@ -1268,8 +1252,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-230px);
-            transform: translate(-230px);
+    -webkit-transform: translate(117px, -127px);
+            transform: translate(117px, -127px);
   }
   body .footer .connect-info .connect-heading {
     color: #b91e70;
