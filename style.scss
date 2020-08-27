@@ -1531,6 +1531,11 @@ body {
           color: #f5f5f5;
           transform: translate(18px, -100px);
         }
+
+        .card-1-arrow {
+          margin: auto;
+          transform: translate(118px, -100px);
+        }
       }
 
       .card-2 {
@@ -1550,6 +1555,11 @@ body {
           width: 60px;
           color: #f5f5f5;
           transform: translate(18px, -100px);
+        }
+
+        .card-2-arrow {
+          margin: auto;
+          transform: translate(118px, -71px);
         }
       }
 
@@ -1571,6 +1581,11 @@ body {
           color: #f5f5f5;
           transform: translate(18px, -100px);
         }
+
+        .card-3-arrow {
+          margin: auto;
+          transform: translate(118px, -71px);
+        }
       }
     }
 
@@ -1587,7 +1602,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-150px, 25px);
+        transform: translate(-120px, 25px);
 
         .cpt-heading {
           color: #b91e70;
@@ -1609,7 +1624,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(80px, -66px);
+        transform: translate(80px, -70px);
 
         .joburg-heading {
           color: #b91e70;
@@ -1631,7 +1646,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-140px, -60px);
+        transform: translate(-110px, -60px);
 
         .media-heading {
           color: #b91e70;

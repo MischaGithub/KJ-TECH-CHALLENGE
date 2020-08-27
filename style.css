@@ -1688,6 +1688,11 @@ body .footer .connect-info .connect-p {
     -webkit-transform: translate(18px, -100px);
             transform: translate(18px, -100px);
   }
+  body .work-cards .card-1 .card-1-arrow {
+    margin: auto;
+    -webkit-transform: translate(118px, -100px);
+            transform: translate(118px, -100px);
+  }
   body .work-cards .card-2 {
     margin: auto;
     width: 180px;
@@ -1706,6 +1711,11 @@ body .footer .connect-info .connect-p {
     color: #f5f5f5;
     -webkit-transform: translate(18px, -100px);
             transform: translate(18px, -100px);
+  }
+  body .work-cards .card-2 .card-2-arrow {
+    margin: auto;
+    -webkit-transform: translate(118px, -71px);
+            transform: translate(118px, -71px);
   }
   body .work-cards .card-3 {
     margin: auto;
@@ -1726,6 +1736,11 @@ body .footer .connect-info .connect-p {
     -webkit-transform: translate(18px, -100px);
             transform: translate(18px, -100px);
   }
+  body .work-cards .card-3 .card-3-arrow {
+    margin: auto;
+    -webkit-transform: translate(118px, -71px);
+            transform: translate(118px, -71px);
+  }
   body .footer {
     margin: auto;
     height: 230px;
@@ -1744,8 +1759,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-150px, 25px);
-            transform: translate(-150px, 25px);
+    -webkit-transform: translate(-120px, 25px);
+            transform: translate(-120px, 25px);
   }
   body .footer .cpt-info .cpt-heading {
     color: #b91e70;
@@ -1764,8 +1779,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(80px, -66px);
-            transform: translate(80px, -66px);
+    -webkit-transform: translate(80px, -70px);
+            transform: translate(80px, -70px);
   }
   body .footer .joburg-info .joburg-heading {
     color: #b91e70;
@@ -1784,8 +1799,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-140px, -60px);
-            transform: translate(-140px, -60px);
+    -webkit-transform: translate(-110px, -60px);
+            transform: translate(-110px, -60px);
   }
   body .footer .media-info .media-heading {
     color: #b91e70;
