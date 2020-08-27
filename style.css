@@ -1590,7 +1590,7 @@ body .footer .connect-info .connect-p {
   }
   body .data-analytics {
     background-color: #6f249b;
-    height: 900px;
+    height: 1000px;
     -webkit-clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
             clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
   }
@@ -1632,28 +1632,28 @@ body .footer .connect-info .connect-p {
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     font-weight: normal;
-    width: 10%;
+    width: 25%;
     color: #f5f5f5;
     padding: 0.7rem;
     text-align: center;
-    -webkit-transform: translate(700px, -160px);
-            transform: translate(700px, -160px);
+    -webkit-transform: translate(50px, -160px);
+            transform: translate(50px, -160px);
   }
   body .da-right-arrow {
     margin: auto;
     width: 35px;
     height: 18px;
-    -webkit-transform: translate(688px, -155px);
-            transform: translate(688px, -155px);
+    -webkit-transform: translate(35px, -155px);
+            transform: translate(35px, -155px);
   }
   body .da-arrow-glyph {
     margin: auto;
-    -webkit-transform: translate(410px, 40px);
-            transform: translate(410px, 40px);
+    -webkit-transform: translate(200px, -50px);
+            transform: translate(200px, -50px);
   }
   body .work-cards {
     margin: auto;
-    height: 440px;
+    height: 620px;
     background-color: #fff;
   }
   body .work-cards .cards-body {
@@ -1664,15 +1664,14 @@ body .footer .connect-info .connect-p {
         -ms-flex-pack: center;
             justify-content: center;
     margin: auto;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   body .work-cards .card-1 {
-    margin: 0.5rem auto;
-    margin-top: 4rem;
-    width: 150px;
+    margin: auto;
+    width: 180px;
     height: 200px;
   }
   body .work-cards .card-1 .card-heading {
@@ -1686,13 +1685,12 @@ body .footer .connect-info .connect-p {
     font-size: 11px;
     width: 60px;
     color: #f5f5f5;
-    -webkit-transform: translate(40px, -80px);
-            transform: translate(40px, -80px);
+    -webkit-transform: translate(18px, -100px);
+            transform: translate(18px, -100px);
   }
   body .work-cards .card-2 {
     margin: auto;
-    margin-top: 4rem;
-    width: 150px;
+    width: 180px;
     height: 200px;
   }
   body .work-cards .card-2 .card-heading {
@@ -1706,13 +1704,12 @@ body .footer .connect-info .connect-p {
     font-size: 11px;
     width: 60px;
     color: #f5f5f5;
-    -webkit-transform: translate(40px, -80px);
-            transform: translate(40px, -80px);
+    -webkit-transform: translate(18px, -100px);
+            transform: translate(18px, -100px);
   }
   body .work-cards .card-3 {
     margin: auto;
-    margin-top: 4rem;
-    width: 150px;
+    width: 180px;
     height: 200px;
   }
   body .work-cards .card-3 .card-heading {
@@ -1726,27 +1723,29 @@ body .footer .connect-info .connect-p {
     font-size: 11px;
     width: 60px;
     color: #f5f5f5;
-    -webkit-transform: translate(40px, -80px);
-            transform: translate(40px, -80px);
+    -webkit-transform: translate(18px, -100px);
+            transform: translate(18px, -100px);
   }
   body .footer {
     margin: auto;
-    height: 220px;
+    height: 230px;
     width: 100%;
     color: white;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   body .footer .cpt-info {
     margin: auto;
     text-align: left;
     color: #fff;
+    -webkit-transform: translate(-150px, 25px);
+            transform: translate(-150px, 25px);
   }
   body .footer .cpt-info .cpt-heading {
     color: #b91e70;
@@ -1757,7 +1756,7 @@ body .footer .connect-info .connect-p {
   body .footer .cpt-info .cpt-p {
     margin: 1rem auto;
     font-family: system-ui, system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: normal;
     color: #fff;
   }
@@ -1765,8 +1764,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-20px);
-            transform: translate(-20px);
+    -webkit-transform: translate(80px, -66px);
+            transform: translate(80px, -66px);
   }
   body .footer .joburg-info .joburg-heading {
     color: #b91e70;
@@ -1777,7 +1776,7 @@ body .footer .connect-info .connect-p {
   body .footer .joburg-info .joburg-p {
     margin: 1rem auto;
     font-family: system-ui, system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: normal;
     color: #fff;
   }
@@ -1785,8 +1784,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-40px);
-            transform: translate(-40px);
+    -webkit-transform: translate(-140px, -60px);
+            transform: translate(-140px, -60px);
   }
   body .footer .media-info .media-heading {
     color: #b91e70;
@@ -1797,7 +1796,7 @@ body .footer .connect-info .connect-p {
   body .footer .media-info .media-p {
     margin: 1rem auto;
     font-family: system-ui, system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: normal;
     color: #fff;
   }
@@ -1805,8 +1804,8 @@ body .footer .connect-info .connect-p {
     margin: auto;
     text-align: left;
     color: #fff;
-    -webkit-transform: translate(-60px);
-            transform: translate(-60px);
+    -webkit-transform: translate(40px, -156px);
+            transform: translate(40px, -156px);
   }
   body .footer .connect-info .connect-heading {
     color: #b91e70;
@@ -1817,7 +1816,7 @@ body .footer .connect-info .connect-p {
   body .footer .connect-info .connect-p {
     margin: 1rem auto;
     font-family: system-ui, system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: normal;
     color: #fff;
   }

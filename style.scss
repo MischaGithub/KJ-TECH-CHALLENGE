@@ -1439,7 +1439,7 @@ body {
 
     .data-analytics {
       background-color: #6f249b;
-      height: 900px;
+      height: 1000px;
       clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
     }
 
@@ -1482,41 +1482,40 @@ body {
       font-family: "Work Sans", sans-serif;
       font-size: 14px;
       font-weight: normal;
-      width: 10%;
+      width: 25%;
       color: #f5f5f5;
       padding: 0.7rem;
       text-align: center;
-      transform: translate(700px, -160px);
+      transform: translate(50px, -160px);
     }
 
     .da-right-arrow {
       margin: auto;
       width: 35px;
       height: 18px;
-      transform: translate(688px, -155px);
+      transform: translate(35px, -155px);
     }
 
     .da-arrow-glyph {
       margin: auto;
-      transform: translate(410px, 40px);
+      transform: translate(200px, -50px);
     }
 
     .work-cards {
       margin: auto;
-      height: 440px;
+      height: 620px;
       background-color: #fff;
 
       .cards-body {
         display: flex;
         justify-content: center;
         margin: auto;
-        flex-direction: row;
+        flex-direction: column;
       }
 
       .card-1 {
-        margin: 0.5rem auto;
-        margin-top: 4rem;
-        width: 150px;
+        margin: auto;
+        width: 180px;
         height: 200px;
 
         .card-heading {
@@ -1530,14 +1529,13 @@ body {
           font-size: 11px;
           width: 60px;
           color: #f5f5f5;
-          transform: translate(40px, -80px);
+          transform: translate(18px, -100px);
         }
       }
 
       .card-2 {
         margin: auto;
-        margin-top: 4rem;
-        width: 150px;
+        width: 180px;
         height: 200px;
 
         .card-heading {
@@ -1551,14 +1549,13 @@ body {
           font-size: 11px;
           width: 60px;
           color: #f5f5f5;
-          transform: translate(40px, -80px);
+          transform: translate(18px, -100px);
         }
       }
 
       .card-3 {
         margin: auto;
-        margin-top: 4rem;
-        width: 150px;
+        width: 180px;
         height: 200px;
 
         .card-heading {
@@ -1572,24 +1569,25 @@ body {
           font-size: 11px;
           width: 60px;
           color: #f5f5f5;
-          transform: translate(40px, -80px);
+          transform: translate(18px, -100px);
         }
       }
     }
 
     .footer {
       margin: auto;
-      height: 220px;
+      height: 230px;
       width: 100%;
       color: white;
       text-align: center;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
 
       .cpt-info {
         margin: auto;
         text-align: left;
         color: #fff;
+        transform: translate(-150px, 25px);
 
         .cpt-heading {
           color: #b91e70;
@@ -1601,7 +1599,7 @@ body {
         .cpt-p {
           margin: 1rem auto;
           font-family: system-ui, system-ui, sans-serif;
-          font-size: 8px;
+          font-size: 12px;
           font-weight: normal;
           color: #fff;
         }
@@ -1611,7 +1609,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-20px);
+        transform: translate(80px, -66px);
 
         .joburg-heading {
           color: #b91e70;
@@ -1623,8 +1621,7 @@ body {
         .joburg-p {
           margin: 1rem auto;
           font-family: system-ui, system-ui, sans-serif;
-          font-size: 8px;
-
+          font-size: 12px;
           font-weight: normal;
           color: #fff;
         }
@@ -1634,7 +1631,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-40px);
+        transform: translate(-140px, -60px);
 
         .media-heading {
           color: #b91e70;
@@ -1646,8 +1643,7 @@ body {
         .media-p {
           margin: 1rem auto;
           font-family: system-ui, system-ui, sans-serif;
-          font-size: 8px;
-
+          font-size: 12px;
           font-weight: normal;
           color: #fff;
         }
@@ -1657,7 +1653,7 @@ body {
         margin: auto;
         text-align: left;
         color: #fff;
-        transform: translate(-60px);
+        transform: translate(40px, -156px);
 
         .connect-heading {
           color: #b91e70;
@@ -1669,7 +1665,7 @@ body {
         .connect-p {
           margin: 1rem auto;
           font-family: system-ui, system-ui, sans-serif;
-          font-size: 8px;
+          font-size: 12px;
 
           font-weight: normal;
           color: #fff;
