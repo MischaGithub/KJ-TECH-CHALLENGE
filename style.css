@@ -1007,26 +1007,26 @@ body .footer .connect-info .connect-p {
   }
   body .data-analytics {
     background-color: #6f249b;
-    height: 1150px;
+    height: 1100px;
     -webkit-clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
             clip-path: polygon(0 8.5%, 100% 2%, 100% 100%, 0% 100%);
   }
   body .circle {
     margin: auto;
     height: 520px;
-    -webkit-transform: translate(640px, 220px);
-            transform: translate(640px, 220px);
+    -webkit-transform: translate(40px, 220px);
+            transform: translate(40px, 220px);
   }
   body .image-s2 {
     margin: auto;
-    width: 725px;
-    -webkit-transform: translate(-385px, 315px);
-            transform: translate(-385px, 315px);
+    width: 600px;
+    -webkit-transform: translate(20px, -20px);
+            transform: translate(20px, -20px);
   }
   body .data-analytics-heading {
     margin: auto;
-    -webkit-transform: translate(260px, -160px);
-            transform: translate(260px, -160px);
+    -webkit-transform: translate(0px, -790px);
+            transform: translate(0px, -790px);
   }
   body .data-analytics-heading .da-heading {
     text-align: center;
@@ -1040,8 +1040,8 @@ body .footer .connect-info .connect-p {
     font-family: "Work Sans", sans-serif;
     font-size: 16.5px;
     color: #f5f5f5;
-    -webkit-transform: translate(670px, 30px);
-            transform: translate(670px, 30px);
+    -webkit-transform: translate(170px, 30px);
+            transform: translate(170px, 30px);
   }
   body .da-readmore {
     margin: auto;
@@ -1049,25 +1049,25 @@ body .footer .connect-info .connect-p {
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     font-weight: normal;
-    width: 10%;
+    width: 20%;
     color: #f5f5f5;
     padding: 0.7rem;
     text-align: center;
     background: transparent;
-    -webkit-transform: translate(925px, -200px);
-            transform: translate(925px, -200px);
+    -webkit-transform: translate(165px, -830px);
+            transform: translate(165px, -830px);
   }
   body .da-right-arrow {
     margin: auto;
     width: 46px;
     height: 18px;
-    -webkit-transform: translate(900px, -197px);
-            transform: translate(900px, -197px);
+    -webkit-transform: translate(140px, -825px);
+            transform: translate(140px, -825px);
   }
   body .da-arrow-glyph {
     margin: auto;
-    -webkit-transform: translate(550px, 70px);
-            transform: translate(550px, 70px);
+    -webkit-transform: translate(350px, -270px);
+            transform: translate(350px, -270px);
   }
   body .work-cards {
     margin: auto;
