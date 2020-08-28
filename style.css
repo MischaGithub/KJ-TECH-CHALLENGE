@@ -261,12 +261,17 @@ body .btn-about {
   border: 2px #b91e70 solid;
   width: 17%;
   padding: 0.6rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: system-ui, system-ui, sans-serif;
   font-weight: normal;
   font-size: 90%;
   text-align: center;
   background: transparent;
+  text-decoration: none;
   color: #f5f5f5;
+}
+
+body .btn-about:hover {
+  opacity: 0.7;
 }
 
 body .arrow-right {
@@ -325,14 +330,14 @@ body .advertising-header .sec-heading {
 body .sec-lorem {
   padding: 2rem 0;
   width: 320px;
-  font-family: "Work Sans", sans-serif;
+  font-family: system-ui, system-ui, sans-serif;
   font-size: 16px;
 }
 
 body .btn-readmore {
   margin: auto;
   border: 2px #b91e70 solid;
-  font-family: "Work Sans", sans-serif;
+  font-family: system-ui, system-ui, sans-serif;
   font-size: 14px;
   font-weight: normal;
   width: 9%;
@@ -342,6 +347,10 @@ body .btn-readmore {
   background: transparent;
   -webkit-transform: translate(150px, -1840px);
           transform: translate(150px, -1840px);
+}
+
+body .btn-readmore:hover {
+  opacity: 0.7;
 }
 
 body .lorem-arrow {
@@ -407,7 +416,7 @@ body .data-analytics-heading .da-heading {
 body .data-analytics-heading .da-lorem {
   padding: 1rem 0;
   width: 330px;
-  font-family: "Work Sans", sans-serif;
+  font-family: system-ui, system-ui, sans-serif;
   font-size: 16.5px;
   color: #f5f5f5;
   -webkit-transform: translate(670px, 30px);
@@ -417,7 +426,7 @@ body .data-analytics-heading .da-lorem {
 body .da-readmore {
   margin: auto;
   border: 2px #b91e70 solid;
-  font-family: "Work Sans", sans-serif;
+  font-family: system-ui, system-ui, sans-serif;
   font-size: 14px;
   font-weight: normal;
   width: 10%;
@@ -427,6 +436,10 @@ body .da-readmore {
   background: transparent;
   -webkit-transform: translate(925px, -200px);
           transform: translate(925px, -200px);
+}
+
+body .da-readmore:hover {
+  opacity: 0.7;
 }
 
 body .da-right-arrow {
